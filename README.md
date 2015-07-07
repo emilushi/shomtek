@@ -1,11 +1,11 @@
-=== Latest Posts With Thumbnails and Ads ===
-Contributors: emilushi
-Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads
-Requires at least: 3.2
-Tested up to: 4.2.2
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+=== Latest Posts With Thumbnails and Ads ===<br />
+Contributors: emilushi<br />
+Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads<br />
+Requires at least: 3.2<br />
+Tested up to: 4.2.2<br />
+Stable tag: 1.0<br />
+License: GPLv2 or later<br />
+License URI: http://www.gnu.org/licenses/gpl-2.0.html<br />
 
 Just like the default Recent Posts widget except that posts are with thumbnails and you can show ads between them, show post date and comments count.
 
