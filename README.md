@@ -1,7 +1,7 @@
 === WORDPRESS PLUGIN ===<br />
 
 === Latest Posts With Thumbnails and Ads ===<br />
-Contributors: emilushi<br />
+Contributors: emilushi | http://www.shomtek.com<br />
 Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads<br />
 Requires at least WordPress: 3.2<br />
 Tested up to WordPress: 4.2.2<br />
