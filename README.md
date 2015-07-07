@@ -1,8 +1,10 @@
+=== WORDPRESS PLUGIN ===<br />
+
 === Latest Posts With Thumbnails and Ads ===<br />
 Contributors: emilushi<br />
 Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads<br />
-Requires at least: 3.2<br />
-Tested up to: 4.2.2<br />
+Requires at least WordPress: 3.2<br />
+Tested up to WordPress: 4.2.2<br />
 Stable tag: 1.0<br />
 License: GPLv2 or later<br />
 License URI: http://www.gnu.org/licenses/gpl-2.0.html<br />
