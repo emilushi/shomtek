@@ -1,6 +1,6 @@
 === Latest Posts With Thumbnails and Ads ===
 
-Contributors: emilushi
+Contributors: [@emilushi](https://twitter.com/edMilushi)
 
 Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads, latest posts horizontal, latest posts carousel
 
