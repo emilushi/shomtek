@@ -1,19 +1,17 @@
-=== WORDPRESS PLUGIN ===<br />
-
-=== Latest Posts With Thumbnails and Ads ===<br />
-Contributors: emilushi | http://www.shomtek.com<br />
-Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads<br />
-Requires at least WordPress: 3.2<br />
-Tested up to WordPress: 4.2.2<br />
-Stable tag: 1.0<br />
-License: GPLv2 or later<br />
-License URI: http://www.gnu.org/licenses/gpl-2.0.html<br />
+=== Latest Posts With Thumbnails and Ads ===
+Contributors: emilushi
+Tags: widget, latest post, recent posts, sidebar, latest posts with thumbnails, thumbnails, ads, latest posts horizontal, latest posts carousel
+Requires at least: 3.2
+Tested up to: 4.5
+Stable tag: 1.2.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Just like the default Recent Posts widget except that posts are with thumbnails and you can show ads between them, show post date and comments count.
 
 == Description ==
 
-This plugin will generate a widget for you website where you can show latest posts of your blog with thumbnails and choose to show ads between posts for every X post(you choose it ), you can select to show or hide post date, comments count and the total number of posts to be shown. All posts are sorted by latest post date. Text are for you ad code accepts html and js so you can put your banner or any google ads code.
+This plugin will generate a widget for you website where you can show latest posts of your blog with thumbnails and choose to show ads between posts for every X post(you choose it ), you can select to show or hide post date, comments count and the total number of posts to be shown, when the widget is active on single post view the current post will be ignored from the list. All posts are sorted by latest post date. As well you have a text area where you can add you'r ads code, html and js is accepted so you can put your banner or any google ads code.
 
 == Installation ==
 
@@ -31,3 +29,18 @@ This plugin will generate a widget for you website where you can show latest pos
 
 = 1.0 =
 * Initial release.
+
+= 1.0.1 =
+* Fix to make plugin compatibile with WordPress 4.3
+* Fix "Notice: Trying to get property of non-object in ..." when the widget is desplayed on homepage or single page.
+* Fix "Warning: Division by zero in ..." when "Display ads every X post" is set 0.
+* Fix remove empty div when Ads Code textarea is left empty.
+* Added choose Image size option.
+
+= 1.2.0 =
+* Tested plugin compatibility with WordPress 4.5
+* Added horizontal version
+* Added OWL Carousel for horizontal option
+
+= 1.2.2 =
+* No changes made, fixing a commit mistake
