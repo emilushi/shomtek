@@ -28,8 +28,9 @@ This plugin will generate a widget for you website where you can show latest pos
 4. 4. Drag 'Latest posts with thumbnails' to the target widget area and choose your options
 
 == Screenshots ==
+
 1. The widget backend interface
-2. 2. The widget frontend interface
+2. The widget frontend interface
 
 == Changelog ==
 = 1.0 =
