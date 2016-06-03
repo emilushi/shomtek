@@ -2,8 +2,8 @@
 /**
 * Plugin Name: Latest Posts With Thumbnails and Ads
 * Plugin URI: http://www.shomtek.com/plugins/latest_posts_with_thumbnails_and_ads
-* Description: Simple wordpress plugin that shows latest posts of your blog with pics, possibility to show your ads between posts. If the widget genereted by the plugin will be showed on a single post page the current post will be hidden from the list. <a href="http://www.shomtek.com" title="SHOMTek">www.shomtek.com</a>
-* Version: 1.0
+* Description: Simple wordpress plugin that shows latest posts of your blog with pics, possibility to show your ads between posts, select you prefered view from vertical to horizontal carousel. If the widget genereted by the plugin will be showed on a single post page the current post will be hidden from the list. <a href="http://www.shomtek.com" title="SHOMTek">www.shomtek.com</a>
+* Version: 1.2.2
 * Author: Eduart Milushi
 * Author URI: http://shomtek.com
 * License: GPL2
@@ -33,7 +33,7 @@ Only this, and nothing more.</pre>';
 }
 
 // Pluing version
-define( 'SHOMTEK_VERSION', '1.0' );
+define( 'SHOMTEK_VERSION', '1.2.0' );
 
 // Define plugin directory
 define( 'SHOMTEK__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
@@ -46,10 +46,19 @@ require_once( SHOMTEK__PLUGIN_DIR . 'latest-posts.php' );
 function shomtek_load_plugin_css() {
 
 	wp_enqueue_style( 'plugin_style', SHOMTEK__PLUGIN_URL . 'assets/style.css', array(), SHOMTEK_VERSION );
+	wp_enqueue_style( 'owlCarousel_css', SHOMTEK__PLUGIN_URL . 'assets/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css', array(), SHOMTEK_VERSION );
 
 }
 
 add_action( 'wp_enqueue_scripts', 'shomtek_load_plugin_css' );
+
+function shomtek_load_plugin_js() {
+	wp_enqueue_script( 'owlCarousel', SHOMTEK__PLUGIN_URL . 'assets/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js', array(), '2.4', true );
+	wp_enqueue_script( 'plugin_script', SHOMTEK__PLUGIN_URL . 'assets/shomtek.js', array(), SHOMTEK_VERSION, true );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'shomtek_load_plugin_js' );
 
 // Register Recent Post With Pics Widget
 if( !function_exists( 'register_shomtek_widget' ) ) {
@@ -57,7 +66,7 @@ if( !function_exists( 'register_shomtek_widget' ) ) {
 	function register_shomtek_widget() {
 
 		register_widget( 'shomtek_latest_posts' );
-	
+
 	}
 
 }
